@@ -33,6 +33,7 @@ const CreditCardValidator = () => {
   const validateCard = () => {
     if (!/^\d+$/.test(cardNumber)) {
       setValidationResult('Invalid card number: Only numeric characters are allowed.');
+      setIsValid(false);
       return;
     }
 
@@ -82,11 +83,13 @@ const CreditCardValidator = () => {
       )}
       {cardType && (
         <p>
-          {cardImages[cardType] && 
+          Card Type: <span>
+            {cardImages[cardType] && 
             ( 
               <img className="Image" src={cardImages[cardType]} alt={cardType} /> 
             )
           }
+          </span>
         </p>
       )}
     </div>
