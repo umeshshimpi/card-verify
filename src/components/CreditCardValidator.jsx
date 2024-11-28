@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import visa from "./images/visa.png"
-import mastercard from "./images/mastercard.png"
-import discover from "./images/discover.png"
-import { getCardInfo } from './helpers';
-import './App.css'
+import visa from "../assets/images/visa.png"
+import mastercard from "../assets/images/mastercard.png"
+import discover from "../assets/images/discover.png"
+import { getCardInfo } from '../utils/getCardInfo';
+import './CreditCardValidator.css'
 
 const cardImages = { 
   Visa: visa,
@@ -81,7 +81,7 @@ const CreditCardValidator = () => {
         <p style={{ color: isValid ? 'green' : 'red' }}><strong>{validationResult}</strong></p>
       )}
       {cardType && (
-        <p> Card Type:
+        <p>
           {cardImages[cardType] && 
             ( 
               <img className="Image" src={cardImages[cardType]} alt={cardType} /> 
