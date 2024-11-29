@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/card-verify/static/css/main.21afcf1d.css",
+    "main.js": "/card-verify/static/js/main.33a84f05.js",
+    "index.html": "/card-verify/index.html",
+    "main.21afcf1d.css.map": "/card-verify/static/css/main.21afcf1d.css.map",
+    "main.33a84f05.js.map": "/card-verify/static/js/main.33a84f05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21afcf1d.css",
+    "static/js/main.33a84f05.js"
+  ]
+}
