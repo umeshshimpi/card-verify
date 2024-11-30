@@ -1,8 +1,66 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Credit card verification application
 
-## Available Scripts
+## Demo Link:
+
+Access application at: **[card-verify](https://umeshshimpi.github.io/card-verify/)**
+
+## Table of Contents:
+
+<div align="center">
+</div><!-- TABLE OF CONTENTS -->
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#screenshots">Screenshots</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation">Installation</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+  </ol>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+The Card Verify app is a React-based tool designed to validate and identify credit card numbers. It simplifies the process of determining whether a card number is valid and accurately detects the card type (Visa, MasterCard, Discover) based on industry-standard patterns.
+
+The app ensures robust validation using the **[<u>Luhn algorithm</u>](https://en.wikipedia.org/wiki/Luhn_algorithm)**, checking for both card type compatibility and number integrity. It features a clean and intuitive interface, real-time feedback on user input, and dynamic updates for detected card types. The app demonstrates best practices in React development, modular architecture, and scalable deployment strategies.
+
+Please check **[<u>link</u>](https://www.paypalobjects.com/en_GB/vhelp/paypalmanager_help/credit_card_numbers.htm)** for the sample credit card numbers.
+
+### Technologies
+
+- ReactJS
+- HTML
+- CSS
+
+### Screenshots
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/cc4503ee-c478-409d-9ef5-cab8186b93d6">
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+ git clone https://github.com/umeshshimpi/card-verify.git
+```
+
+2. Install dependencies:
+
+```bash
+ npm install
+```
+
+<!-- GETTING STARTED -->
+
+## Getting Started
 
 In the project directory, you can run:
 
@@ -29,42 +87,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Html]: https://path/to/html/logo.png
+[Html-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[Css]: https://path/to/css/logo.png
+[Css-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
