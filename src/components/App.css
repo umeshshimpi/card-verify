@@ -1,23 +1,36 @@
-.Card-input {
+.card-input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   padding-right: 50px;
 }
 
-.Main {
+.main {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
 }
 
-.Button {
+.button {
   padding: 10px 20px;
   margin-bottom: 10px;
 }
 
-.Image {
+.card-image {
   width: 50px;
   vertical-align: middle;
+}
+
+.validation-result {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
 }
